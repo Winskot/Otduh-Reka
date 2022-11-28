@@ -1,0 +1,56 @@
+
+html {
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive, Arial;
+    background-color: blue;
+}
+p, ol, ul, li {
+    color: black;
+    width: 1000px;
+    line-height: 1.2;/*межстрочный интервал*/
+    letter-spacing: 10;/*межбуквенный интервал*/
+    
+}
+a {
+    color: black;
+}
+a:hover {
+    color: red;
+    border: 2px solid green;
+}
+p.first,
+.free {
+width: 1000px;
+}
+
+span {
+    background-color: yellow;
+}
+body {
+    background-color: rgb(194, 194, 229);
+    margin:2cm 3cm;
+    padding: 0.1cm 1cm 2cm 0.5cm;
+    border: 5px solid black;
+    
+}
+h1,h2,h3,h4 {
+  font-size: 60px; /*размер шрифта*/
+  text-align: center;/*выравнивание шрифта*/
+  letter-spacing: 10;/*межбуквенный интервал*/
+  margin: 0;/*внутренниие отступы  верх низ лево право*/
+  padding: 0.5cm 4cm 10px 2cm;/*наружные отступы верх лево низ право*/
+  color: blue;
+  text-shadow: 3px 3px 1px black;
+  }
+ p::first-letter{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1.5cm;
+    text-shadow: 1px 1px 0.5px blue;/* 1- горизонтальное смещение тени 2- вертикальное смещение 3 - уровень размытости*/
+ } 
+ img{
+    display: block;
+    margin:0 auto;
+    cursor: pointer;
+ }
+
